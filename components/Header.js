@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-export default function Header({ name }) {
+export default function Header({ name, introduction }) {
   return (
     <header className="pt-20 pb-12">
       <div className="block w-12 h-12 mx-auto mb-4 rounded-full bg-gradient-conic from-gradient-3 to-gradient-4" />
@@ -9,6 +9,10 @@ export default function Header({ name }) {
           {name}
         </Link>
       </p>
+      <p className="text-lg text-center dark:text-gray-400 mt-2">
+        {introduction}  {/* Aquí se muestra la introducción */}
+      </p>
     </header>
   );
 }
+
