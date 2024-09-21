@@ -9,7 +9,7 @@ export default function Header({ name, introduction }) {
           {name}
         </Link>
       </p>
-      <p className="text-lg text-center dark:text-gray-400 mt-2">
+      <p className="text-2xl text-center dark:text-white">
         {introduction}  {/* Aquí se muestra la introducción */}
       </p>
     </header>
