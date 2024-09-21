@@ -16,5 +16,6 @@ export const getGlobalData = () => {
     name,
     blogTitle,
     footerText,
+    introduction,
   };
 };
